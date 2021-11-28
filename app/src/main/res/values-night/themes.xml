@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.CityBike" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary_night</item>
+        <item name="colorPrimaryVariant">@color/primary_dark_night</item>
+        <item name="colorOnPrimary">@color/primary_light_night</item>
+        <item name="cardBackgroundColor">@color/primary_light_night</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/accent_night</item>
+        <item name="colorSecondaryVariant">@color/accent_night</item>
+        <item name="colorOnSecondary">@color/primary_text_night</item>
+        <item name="android:textAppearanceLarge">@color/primary_text_night</item>
+        <item name="android:textAppearanceMedium">@color/secondary_text_night</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="NetworkCardView" parent="CardView">
+        <item name="cardBackgroundColor">@color/primary_light_night</item>
+    </style>
+    <style name="Theme.CityBike.PopupOverlay" parent="ThemeOverlay.AppCompat.Dark">
+        <item name="android:textColor">@color/primary_text_night</item>
+    </style>
+</resources>

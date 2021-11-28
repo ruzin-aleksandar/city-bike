@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">City Bike</string>
+    <string name="action_settings">Settings</string>
+    <string name="fragment_bikes">Bike Network</string>
+    <string name="fragment_map_title">Bike Network Map</string>
+    <string name="fragment_map">%1$s location</string>
+    <string name="location_text">%1$s, %2$s</string>
+    <string name="close">Close</string>
+    <string name="search_title">Search Companies</string>
+    <string name="search_hint">Type Company Name</string>
+    <string name="shared_preferences">com.ruzin.citybike.BIKE_NETWORK_PREFERENCES</string>
+    <string name="cache_explanataion">This application uses cache to minimise the network data traffic. You can change the cache expiry time in the range of 15 to 60 minutes using the slider.</string>
+    <string name="cacheTitle">Cache expiry:</string>
+    <string name="fifteen">15 min</string>
+    <string name="sixty">60 min</string>
+    <string name="cache_minutes">%1$d minutes</string>
+    <string name="flag_url">https://flagcdn.com/w40/%1$s.png</string>
+</resources>
